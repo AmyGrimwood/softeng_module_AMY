@@ -1,3 +1,10 @@
+"""****************************************************************************
+File          : JSON_parsing.py
+About         : Parse information from PanelApp API to human readable text 
+Author        : Amy Grimwood
+****************************************************************************"""
+
+
 """This is the JSON_parsing module.
 It parses data from the raw JSON returned from the pannel app API to extract 
 pannel ID, pannel version, relevant disorders, date updated, genes included on
@@ -11,6 +18,8 @@ import numpy as np
 
 class Parser():
     """Class extracts required data from Pannel app api outputs and recombines into JSON"""
+
+
     def __init__(self,args):
         self.args = args
 
@@ -71,9 +80,9 @@ class Parser():
             gene_info = input_json['genes']
             gene_list = []
             for x in gene_info:
-                # Given a key, the get() method returns paired value from 
-                # dict (documentation found at https://docs.python.org/2/library/stdtypes.html 
-                # in section 5.8)
+                #Given a key, the get() method returns paired value from
+                #dict (documentation found at https://docs.python.org/2/library/stdtypes.html 
+                #in section 5.8)
                 hgnc_symbol = x.get('gene_data',{}).get('hgnc_symbol')
                 hgnc_id = x.get('gene_data',{}).get('hgnc_id')
                 GRch38_coord = (x.get('gene_data',{}).get('ensembl_genes',{})
@@ -89,7 +98,7 @@ class Parser():
 
         
     def generate_bed(self,input_json,ref_seq='grch38'):
-      """Generate BED file text, including error handelling 
+        """Generate BED file text, including error handelling 
         for jsons mimissing the 'genes' or 'location' key
         """
         try:

@@ -1,6 +1,5 @@
 Usage
 =====
-rtdtytuh hgtfytu
 
 Installation
 ----------------
@@ -106,10 +105,16 @@ Search for Patient Data
 -------------------------
 Patient data can be searched by patient ID number.
 
+
 **Search by Patient ID**::
 
    # To search for patient records, use -g or --get_patient_data flags to specify the patient ID
    python PanelAppDB.py -g 124 -f 'db/'
+
+
+Run in Debug mode 
+------------------
+The module can be run in debug mode by using the -d or --debug_mode flags
 
 
 Run in Debug mode 
