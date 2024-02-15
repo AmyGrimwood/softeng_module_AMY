@@ -1,6 +1,7 @@
 PanelAppDB
 ============
 
+
 PanelAppDB is a tool to search and store gene panel information for genetic tests included in the National Genomic Testing Directory.
 
 - For help please use `-h` command
@@ -17,6 +18,7 @@ ReadTheDocs documentation available at: https://softeng-module.readthedocs.io/en
 ## Install via conda
 ```bash
 git clone https://github.com/Fr3dMer/softeng_module.git
+cd softeng_module.git
 conda env create -n PanelAppDB --file environment.yml
 conda activate PanelAppDB
 mkdir db
@@ -60,9 +62,9 @@ pytest test/
 ```
 
 
-
 ## Structure of app
 ![flow chart showing structure of app](docs/Flowchart.png)
+
 
 ## Licence
 ### MIT Licence
@@ -73,3 +75,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

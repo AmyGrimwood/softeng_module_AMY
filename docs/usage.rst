@@ -105,6 +105,7 @@ Search for Patient Data
 -------------------------
 Patient data can be searched by patient ID number.
 
+
 **Search by Patient ID**::
 
    # To search for patient records, use -g or --get_patient_data flags to specify the patient ID
@@ -115,7 +116,13 @@ Run in Debug mode
 ------------------
 The module can be run in debug mode by using the -d or --debug_mode flags
 
+
+Run in Debug mode 
+------------------
+The module can be run in debug mode by using the -d or --debug_mode flags
+
 **Debug Mode**::
 
    # To search for a panel in debug mode use the -d flag
    python PanelAppDB.py -r R46 -d
+
