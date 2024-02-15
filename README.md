@@ -18,7 +18,7 @@ ReadTheDocs documentation available at: https://softeng-module.readthedocs.io/en
 ## Install via conda
 ```bash
 git clone https://github.com/Fr3dMer/softeng_module.git
-cd softeng_module.git
+cd softeng_module
 conda env create -n PanelAppDB --file environment.yml
 conda activate PanelAppDB
 mkdir db
