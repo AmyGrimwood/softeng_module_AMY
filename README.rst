@@ -1,5 +1,5 @@
-PanelAppDB
-===========
+PanelAppDB REAME
+=================
 
 PanelAppDB is a tool to search and store gene panel information for genetic tests included in the National Genomic Testing Directory.
 
