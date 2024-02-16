@@ -3,7 +3,9 @@ Installation
 PanelAppDB can be installed using either conda or pip.
 Please see below for step by step installation instructions.
 
-**Install via conda**::
+Install via conda
+----------------------
+::
 
    # Clone PanelAppDB from Github repository
    git clone https://github.com/Fr3dMer/softeng_module.git
@@ -14,7 +16,9 @@ Please see below for step by step installation instructions.
 
 
 
-**Install via pip**::
+Install via pip
+-------------------
+::
 
    # Clone PanelAppDB from Github repository
    git clone https://github.com/Fr3dMer/softeng_module.git
@@ -26,4 +30,4 @@ Please see below for step by step installation instructions.
 .. autosummary::
    :toctree: generated
 
-   PannelAppDB
+   PanelAppDB
